@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './layouts/Navbar'
 import Home from './pages/Home'
+import Team from './components/Team'
 import Services from './components/Services'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -20,11 +21,14 @@ function App() {
       <section id="home" className="min-h-screen">
         <Home />
       </section>
-      <section id="services" className="min-h-screen">
-        <Services />
-      </section>
       <section id="about" className="min-h-screen">
         <About />
+      </section>
+      <section id="team" className="min-h-screen">
+        <Team />
+      </section>
+      <section id="services" className="min-h-screen">
+        <Services />
       </section>
       <section id="contact" className="min-h-screen">
         <Contact />
